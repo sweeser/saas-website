@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/button-free.css">
+    <link rel="stylesheet" href="/styles/button-learn.css">
+    <link rel="stylesheet" href="/styles/card.css">
+    <link rel="stylesheet" href="/styles/comment.css">
+    <link rel="stylesheet" href="/styles/feature.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/logo.css">
+    <link rel="stylesheet" href="/styles/tag.css">
+    <link rel="stylesheet" href="/styles/typography.css">
     <title>Document</title>
 </head>
 <body>
@@ -10,27 +19,36 @@
         <div class="bar">
             <a href="#" class="bar__link">View the complete Kit<img src="./images/arrow.svg" alt="" class="bar__link-image"></a>
         </div>
-        <img src="./images/logosaas.png" alt="SaaS Website logotype" class="header__logo">
+        <div class="logo">
+            <img src="./images/logosaas.svg" alt="SaaS Website logotype" class="logo__image">
+        </div>
         <button class="header__menu" aria-label="Open menu">
-            <img src="./images/burger.svg" alt="Menu icon" class="header__burger-icon">
+            <img src="./images/burger.svg" alt="" class="header__burger-icon">
         </button>
     </header>
     <main class="main">
         <section class="productivity">
-            <a href="#" class="productivity__link">Version 2.0 is here</a>
+            <div class="tag">
+                <p class="tag__text">Version 2.0 is here</p>
+            </div>
             <h1 class="productivity__title">Pathway to productivity</h1>
             <p class="productivity__description">Celebrate the joy of accomplishment with an app designed to track your progress, motivate your efforts, and celebrate your successes.</p>
             <div class="button-free">
                 <a href="#" class="button-free__link">Get for free</a>
             </div>
-            <a href="#" class="productivity__button">Learn more<img src="./images/arrow-black.svg" alt=""></a>
+            <div class="button-learn">
+                <a href="#" class="button-learn__link">Learn more<img src="./images/arrow-black.svg" alt=""></a>
+            </div>
             <img src="./images/productivity-image.png" alt="" class="productivity__image">
         </section>
         <section class="sponsors">
             <ul class="sponsors__list">
-                <li class="sponsors__item"><img src="./images/quantum-logo.png" alt="" class="sponsors__item-image"></li>
-                <li class="sponsors__item"><img src="./images/echo-logo.png" alt="" class="sponsors__item-image"></li>
-                <li class="sponsors__item"><img src="./images/celestia-logo.png" alt="" class="sponsors__item-image"></li>
+                <li class="sponsors__item"><img src="./images/acme-name.svg" alt="Sponsor Acme" class="sponsors__item-image"></li>
+                <li class="sponsors__item"><img src="./images/quantum-name.svg" alt="Sponsor Quantum" class="sponsors__item-image"></li>
+                <li class="sponsors__item"><img src="./images/echo-name.svg" alt="Sponsor Echo" class="sponsors__item-image"></li>
+                <li class="sponsors__item"><img src="./images/celestia-name.svg" alt="Sponsor Celectial" class="sponsors__item-image"></li>
+                <li class="sponsors__item"><img src="./images/pulse-name.svg" alt="Sponsor Pulse" class="sponsors__item-image"></li>
+                <li class="sponsors__item"><img src="./images/apex-name.svg" alt="Sponsor Apex" class="sponsors__item-image"></li>
             </ul>
         </section>
         <section class="product">
@@ -39,9 +57,9 @@
             </div>
             <h2 class="product__title">A more effective way to track progress</h2>
             <p class="product__description">Effortlessly turn your ideas into a fully functional, responsive, no-code SaaS website in just minutes with the set of free components for Framer.</p>
-            <img src="./images/product-image.png" alt="Picture of product with functional" class="product__image">
+            <img src="./images/product-image.jpg" alt="Picture of product with functional" class="product__image">
             <ul class="product__list">
-                <li class="product__item product">
+                <li class="product__item">
                     <div class="feature">
                         <img src="./images/ecosystem-picture.svg" alt="" class="feature__image">
                         <h3 class="feature__title">Integration ecosystem</h3>
@@ -49,7 +67,7 @@
                         <a href="#" class="feature__link">Learn more<img src="./images/arrow-black.svg" alt=""></a>
                     </div>
                 </li>
-                <li class="product__item product">
+                <li class="product__item">
                     <div class="feature">
                         <img src="./images/target-picture.svg" alt="" class="feature__image">
                         <h3 class="feature__title">Goal setting and tracking</h3>
@@ -57,7 +75,7 @@
                         <a href="#" class="feature__link">Learn more<img src="./images/arrow-black.svg" alt=""></a>
                     </div>
                 </li>
-                <li class="product__item product">
+                <li class="product__item">
                     <div class="feature">
                         <img src="./images/lock-picture.svg" alt="" class="feature__image">
                         <h3 class="feature__title">Secure data encryption</h3>
@@ -65,7 +83,7 @@
                         <a href="#" class="feature__link">Learn more<img src="./images/arrow-black.svg" alt=""></a>
                     </div>
                 </li>
-                <li class="product__item product">
+                <li class="product__item">
                     <div class="feature">
                         <img src="./images/notifications-picture.svg" alt="" class="feature__image">
                         <h3 class="feature__title">Customizable notifications</h3>
@@ -75,21 +93,21 @@
                 </li>
             </ul>
         </section>
-        <section class="necessary">
+        <section class="benefits">
             <div class="tag">
                 <p class="tag__text">Everything you need</p>
             </div>
-            <h2 class="necessary__title">Streamlined for easy managment</h2>
-            <p class="necessary__description">Enjoy customizable lists, team work tools, and smart tracking all in one place. Set tasks, get reminders, and see your progress simply and quickly.</p>
-            <ul class="necessary__list">
-                <li class="necessary__item necessary">
+            <h2 class="benefits__title">Streamlined for easy managment</h2>
+            <p class="benefits__description">Enjoy customizable lists, team work tools, and smart tracking all in one place. Set tasks, get reminders, and see your progress simply and quickly.</p>
+            <ul class="benefits__list">
+                <li class="benefits__item">
                     <div class="card">
                         <img src="./images/figure-1.png" alt="" class="card__image">
                         <h3 class="card__title">Integration ecosystem</h3>
                         <p class="card__text">Enhance your productivity by connecting with your favorite tools, keeping all your essentials in one place.</p>
                     </div>
                 </li>
-                <li class="necessary__item necessary">
+                <li class="benefits__item">
                     <div class="card">
                         <img src="./images/figure-2.png" alt="" class="card__image">
                         <h3 class="card__title">Goal setting and tracking</h3>
@@ -105,7 +123,7 @@
             <h2 class="price__title">A more effective way to track progress</h2>
             <p class="price__description">Effortlessly turn your ideas into a fully functional, responsive, no-code SaaS website in just minutes with the set of free components for Framer.</p>
             <ul class="price__list">
-                <li class="price__item price">
+                <li class="price__item">
                     <h3 class="price__item-title">Free</h3>
                     <p class="price__item-cost">$0 /monthly</p>
                     <a href="#" class="price__item-link">Get started for free</a>
@@ -132,7 +150,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="price__item price">
+                <li class="price__item">
                     <h3 class="price__item-title">Pro</h3>
                     <p class="price__item-tag">Most Popular</p>
                     <p class="price__item-cost">$9 /monthly</p>
@@ -168,7 +186,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="price__item price">
+                <li class="price__item">
                     <h3 class="price__item-title">Business</h3>
                     <p class="price__item-cost">$19 /monthly</p>
                     <a href="#" class="price__item-link">Sign up now</a>
@@ -223,31 +241,31 @@
             </div>
             <h2 class="feedback__title">What our users say</h2>
             <ul class="feedback__list">
-                <li class="feedback__item feedback">
+                <li class="feedback__item">
                     <div class="comment">
                         <p class="comment__text">I was amaized at how quickly we were able to integtate this app into our workflow.</p>
                         <div class="comment__person">
-                            <img src="./images/person-1.png" alt="Photo of Casey Jordan" class="comment__person-image">
+                            <img src="./images/person-1.jpg" alt="Photo of Casey Jordan" class="comment__person-image">
                             <p class="comment__person-name">Casey Jordan</p>
                             <a href="#" class="comment__person-handle">@caseyj</a>
                         </div>
                     </div>
                 </li>
-                <li class="feedback__item feedback">
+                <li class="feedback__item">
                     <div class="comment">
                         <p class="comment__text">Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuringnothing slips throught the cracks</p>
                         <div class="comment__person">
-                            <img src="./images/person-2.png" alt="Photo of Taylor Kim" class="comment__person-image">
+                            <img src="./images/person-2.jpg" alt="Photo of Taylor Kim" class="comment__person-image">
                             <p class="comment__person-name">Taylor Kim</p>
                             <a href="#" class="comment__person-handle">@taylorkimm</a>
                         </div>
                     </div>
                 </li>
-                <li class="feedback__item feedback">
+                <li class="feedback__item">
                     <div class="comment">
                         <p class="comment__text">The customizability and integration capabilities of this app are top-notch</p>
                         <div class="comment__person">
-                            <img src="./images/person-3.png" alt="Photo of Riley Smith" class="comment__person-image">
+                            <img src="./images/person-3.jpg" alt="Photo of Riley Smith" class="comment__person-image">
                             <p class="comment__person-name">Riley Smith</p>
                             <a href="#" class="comment__person-handle">@rileysmith1</a>
                         </div>
@@ -258,11 +276,17 @@
         <section class="sign">
             <h2 class="sign__title">Sign up for free today</h2>
             <p class="price__description">Celebrate the joy of accomplishment with an app designed to track your progress and motivate your efforts.</p>
-            <a href="#" class="sign__button sign__button-type-get">Get for free</a>
-            <a href="#" class="sign__button sign__button-type-learn">Learn more<img src="./images/arrow-black.svg" alt=""></a>
+            <div class="button-free">
+                <a href="#" class="button-free__link">Get for free</a>
+            </div>
+            <div class="button-learn">
+                <a href="#" class="button-learn__link">Learn more<img src="./images/arrow-black.svg" alt=""></a>
+            </div>
         </section>
         <footer class="footer">
-            <img src="./images/logosaas.png" alt="" class="footer__logo">
+            <div class="logo">
+                <img src="./images/logosaas.svg" alt="SaaS Website logotype" class="logo__image">
+            </div>
             <p class="footer__description">Effortlessly turn your ideas into a fully functional, responsive, no-code SaaS website.</p>
             <ul class="footer__social">
                 <li class="footer__social-item">
@@ -284,46 +308,54 @@
                     <a href="#" class="footer__social-link footer__social-link_type_youtube"></a>
                 </li>
             </ul>
-            <ul class="footer__list">
-                <li class="footer__item">
-                    <p class="footer__item-title">Product</p>
-                    <ul class="footer__item-links">
-                        <li class="footer__link-item"><a href="#">Features</a></li>
-                        <li class="footer__link-item"><a href="#">Integrations</a></li>
-                        <li class="footer__link-item"><a href="#">Updates</a></li>
-                        <li class="footer__link-item"><a href="#">FAQ</a></li>
-                        <li class="footer__link-item"><a href="#">Pricing</a></li>
-                    </ul>
-                </li>
-                <li class="footer__item">
-                    <p class="footer__item-title">Company</p>
-                    <ul class="footer__item-links">
-                        <li class="footer__link-item"><a href="#">About</a></li>
-                        <li class="footer__link-item"><a href="#">Blog</a></li>
-                        <li class="footer__link-item"><a href="#">Careers</a></li>
-                        <li class="footer__link-item"><a href="#">Manifesto</a></li>
-                        <li class="footer__link-item"><a href="#">Press</a></li>
-                        <li class="footer__link-item"><a href="#">Contact</a></li>
-                    </ul>
-                </li>
-                <li class="footer__item">
-                    <p class="footer__item-title">Resources</p>
-                    <ul class="footer__item-links">
-                        <li class="footer__link-item"><a href="#">Examples</a></li>
-                        <li class="footer__link-item"><a href="#">Community</a></li>
-                        <li class="footer__link-item"><a href="#">Guides</a></li>
-                        <li class="footer__link-item"><a href="#">Docs</a></li>
-                    </ul>
-                </li>
-                <li class="footer__item">
-                    <p class="footer__item-title">Legal</p>
-                    <ul class="footer__item-links">
-                        <li class="footer__link-item"><a href="#">Privacy</a></li>
-                        <li class="footer__link-item"><a href="#">Terms</a></li>
-                        <li class="footer__link-item"><a href="#">Security</a></li>
-                    </ul>
-                </li>
-            </ul>
+            <nav class="footer__nav">
+                <ul class="footer__item-links">
+                    <li class="footer__item">
+                        <p class="footer__item-title">Product</p>
+                        <ul class="footer__link-list">
+                            <li class="footer__link-item"><a href="#">Features</a></li>
+                            <li class="footer__link-item"><a href="#">Integrations</a></li>
+                            <li class="footer__link-item"><a href="#">Updates</a></li>
+                            <li class="footer__link-item"><a href="#">FAQ</a></li>
+                            <li class="footer__link-item"><a href="#">Pricing</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="footer__item-links">
+                    <li class="footer__item">
+                        <p class="footer__item-title">Company</p>
+                        <ul class="footer__link-list">
+                            <li class="footer__link-item"><a href="#">About</a></li>
+                            <li class="footer__link-item"><a href="#">Blog</a></li>
+                            <li class="footer__link-item"><a href="#">Careers</a></li>
+                            <li class="footer__link-item"><a href="#">Manifesto</a></li>
+                            <li class="footer__link-item"><a href="#">Press</a></li>
+                            <li class="footer__link-item"><a href="#">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="footer__item-links">
+                    <li class="footer__item">
+                        <p class="footer__item-title">Resources</p>
+                        <ul class="footer__link-list">
+                            <li class="footer__link-item"><a href="#">Examples</a></li>
+                            <li class="footer__link-item"><a href="#">Community</a></li>
+                            <li class="footer__link-item"><a href="#">Guides</a></li>
+                            <li class="footer__link-item"><a href="#">Docs</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="footer__item-links">
+                    <li class="footer__item">
+                        <p class="footer__item-title">Legal</p>
+                        <ul class="footer__link-list">
+                            <li class="footer__link-item"><a href="#">Privacy</a></li>
+                            <li class="footer__link-item"><a href="#">Terms</a></li>
+                            <li class="footer__link-item"><a href="#">Security</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </footer>
     </main>
 </body>
