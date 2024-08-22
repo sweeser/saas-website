@@ -1,0 +1,9 @@
+.typography {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.typography--body-small-tag {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+}

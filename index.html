@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/button-free.css">
-    <link rel="stylesheet" href="/styles/button-learn.css">
-    <link rel="stylesheet" href="/styles/card.css">
-    <link rel="stylesheet" href="/styles/comment.css">
-    <link rel="stylesheet" href="/styles/feature.css">
-    <link rel="stylesheet" href="/styles/header.css">
-    <link rel="stylesheet" href="/styles/logo.css">
-    <link rel="stylesheet" href="/styles/tag.css">
-    <link rel="stylesheet" href="/styles/typography.css">
+    <link rel="stylesheet" href="./styles/button-free.css">
+    <link rel="stylesheet" href="./styles/button-learn.css">
+    <link rel="stylesheet" href="./styles/card.css">
+    <link rel="stylesheet" href="./styles/comment.css">
+    <link rel="stylesheet" href="./styles/feature.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/logo.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/tag.css">
+    <link rel="stylesheet" href="./styles/typography.css">
     <title>Document</title>
 </head>
 <body class="typography">
     <header class="header">
         <div class="bar">
-            <a href="#" class="bar__link"><span class="typography__body typography__body_small typography__tag">View the complete Kit</span><img src="./images/arrow.svg" alt="" class="bar__link-image"></a>
+            <a href="#" class="bar__link"><span class="typography--body-small-tag">View the complete Kit</span><img src="./images/arrow-white.svg" alt="" class="bar__link-image"></a>
         </div>
-        <div class="logo">
-            <img src="./images/logosaas.svg" alt="SaaS Website logotype" class="logo__image">
+        <div class="header__navigation">
+            <div class="logo">
+                <img src="./images/logosaas.svg" alt="SaaS Website logotype" class="logo__image">
+            </div>
+            <button class="header__menu" aria-label="Open menu">
+                <img src="./images/burger.svg" alt="" class="header__burger-icon">
+            </button>
         </div>
-        <button class="header__menu" aria-label="Open menu">
-            <img src="./images/burger.svg" alt="" class="header__burger-icon">
-        </button>
     </header>
     <main class="main">
         <section class="productivity">
