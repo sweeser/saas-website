@@ -1,0 +1,476 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.productivity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 19.5px;
+    padding-bottom: 75px;
+    background: linear-gradient(222deg,
+        #EAEEFE 40%, 
+        #183EC2 100%);
+}
+
+.productivity > img {
+    height: 388px;
+    width: 388px;
+    padding-top: 97px;
+}
+
+.productivity__title {
+    padding-top: 27px;
+}
+
+.productivity__description {
+    padding-top: 31px;
+    width: 365px;
+}
+
+.productivity__buttons {
+    padding-top: 35.6px;
+}
+
+.productivity__list {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+
+.sponsors {
+    padding-top: 52px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sponsors__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    gap: 27px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sponsors__item-image {
+    display: block;
+    opacity: 0.3;
+}
+
+.sponsors__item:nth-child(3) .sponsors__item-image {
+    opacity: 1;
+}
+
+.sponsors::before,
+.sponsors::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.sponsors::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.sponsors::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+    background: linear-gradient(222deg,
+        #FFF 40%, 
+        #D2DCFF 100%);
+    padding-bottom: 102px;
+}
+
+.product__title {
+    padding-top: 19px;
+    text-align: center;
+    width: 376px;
+}
+
+.product__description {
+    padding-top: 19px;
+    text-align: center;
+    width: 376px;
+}
+
+.product__image {
+    margin-top: -30px;
+    height: 366px;
+    width: 430px;
+}
+
+.product__list {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding-top: 12px;
+    width: 260px;
+}
+
+.feature__image {
+    height: 24px;
+    width: 24px;
+}
+
+.feature__title {
+    padding-top: 10px;
+}
+
+.feature__description {
+    padding-top: 14px;
+    padding-bottom: 7px;
+}
+
+.feature__link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.feature__link > img {
+    padding-left: 6px;
+}
+
+.benefits {
+    padding-top: 91px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 220px;
+}
+
+.benefits__title {
+    padding-top: 20px;
+    text-align: center;
+    width: 297px;
+}
+
+.benefits__description {
+    padding-top: 25px;
+    text-align: center;
+    width: 358px;
+    color: #010D3E;
+}
+
+.benefits__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 60px
+}
+
+.benefits__item {
+    height: 534px;
+    width: 408px;
+    border-radius: 20px;
+    border: 1px solid #00000011;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.card__image {
+    padding-top: 38px;
+    padding-left: 38px;
+    padding-bottom: 14px;
+}
+
+.card__title {
+    text-align: center;
+    padding-bottom: 17px;
+}
+
+.card__text {
+    text-align: center;
+    width: 332px;
+    padding-left: 33px;
+    color: #010D3E;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.price__title {
+    padding-top: 21px;
+    text-align: center;
+    width: 394px;
+    letter-spacing: -4%;
+    word-spacing: -4px;
+}
+
+.price__description {
+    padding-top: 20px;
+    text-align: center;
+    width: 365px;
+    color: #010D3E;
+}
+
+.price__list {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.price__item {
+    border-radius: 25px;
+    border: 1px solid #00000011;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding-left: 39px;
+    padding-top: 43px;
+    padding-right: 40px;
+    padding-bottom: 48px;
+    box-sizing: border-box;
+}
+
+.price__item-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.price__item-title {
+    color: #6F6C90;
+}
+
+.price__item-cost {
+    padding-top: 39px;
+    padding-bottom: 38px;
+}
+
+.price__item-cost--color--gray {
+    color: #6F6C90;
+}
+
+.price__item-cost--color--gray:nth-child(2n) {
+    color: #999999;
+}
+
+.price__item-link {
+    color: #FFFFFF;
+    background-color: #000000;
+    text-align: center;
+    text-decoration: none;
+    width: 271px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+}
+
+.price__item-features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 38px;
+    gap: 28px;
+}
+
+.price__feature {
+    position: relative;
+    padding-left: 40px;
+}
+
+.price__feature::before {
+    content: "";
+    background: url(../images/tick-black.svg) no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: -3px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 25px;
+}
+
+.price__feature-link {
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.price__item--mode--dark {
+    padding-left: 39px;
+    padding-top: 47px;
+    padding-right: 40px;
+    padding-bottom: 45px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.price__item-title--mode--dark {
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding-right: 136px;
+}
+
+.price__item-link--mode--dark {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.price__item-features--mode--dark {
+    color: #FFFFFF;
+}
+
+.price__feature-link--mode--dark {
+    color: #FFFFFF;
+}
+
+.price__feature--mode--dark::before {
+    background: url(../images/tick-white.svg) no-repeat center center;
+}
+
+.price__item-tag {
+    display: inline-block;
+    padding: 8px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: -7px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 12px;
+    background: linear-gradient(90deg, #ff7cf8, #ffb66d, #00dbde, #4facfe);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.feedback::before,
+.feedback::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 500px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.feedback::before {
+    top: 30px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.feedback::after {
+    bottom: -5px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.feedback__title {
+    width: 163px;
+    text-align: center;
+    padding-top: 26px;
+}
+
+.feedback__list {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.feedback__item {
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.comment__text {
+    width: 248px;
+    text-align: left;
+    padding-bottom: 17px;
+}
+
+.comment__person {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment__person-image {
+    width: 42px;
+    height: 42px;
+}
+
+.comment__person-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+    padding-left: 10px;
+}
+
+.comment__person-handle {
+    text-decoration: none;
+    color: #000000;
+}
+
+.sign {
+    padding-top: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #FFFFFF 40%, #D2DCFF 95%);
+    padding-bottom: 66px;
+}
+
+.sign__title {
+    width: 200px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sign__description {
+    width: 280px;
+    text-align: center;
+    padding-bottom: 51px;
+}
+
+.sign__list {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}

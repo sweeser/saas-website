@@ -7,3 +7,89 @@
     font-weight: 300;
     letter-spacing: 0.3px;
 }
+
+.typography__h1 {
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    line-height: 1.11;
+    word-spacing: -8px;
+    background: linear-gradient(90deg, #000000, #001354);
+    background-clip: text;
+    color: transparent;
+}
+
+.typography__h1--L {
+    font-size: 54px;
+}
+
+.typography__h2 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    line-height: 1;
+    background: linear-gradient(90deg, #000000, #001354);
+    background-clip: text;
+    color: transparent;
+}
+
+.typography__h3 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -7%;
+    background: linear-gradient(90deg, #000000, #001354);
+    background-clip: text;
+    color: transparent;
+}
+
+.typography__h4 {
+    font-size: 25px;
+    font-weight: 600;
+    
+    background: linear-gradient(90deg, #000000, #001354);
+    background-clip: text;
+    color: transparent;
+}
+
+.typography__h5 {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -3.1%;
+}
+
+.typography__number {
+    font-size: 54px;
+    font-weight: 600;
+    letter-spacing: -6%;
+}
+
+.typography__body_medium {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -1%;
+    line-height: 1.47;
+    word-spacing: 2.5px;
+    background: linear-gradient(90deg, #000000, #001354);
+    background-clip: text;
+    color: transparent;
+}
+
+.typography__body_large {
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -3.6%;
+    line-height: 1.4;
+    background: linear-gradient(90deg, #000000, #001354);
+    background-clip: text;
+    color: transparent;
+}
+
+.typography__body_bold {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -2%;
+}
+
+.typography__body_s {
+    font-size: 14px;
+}

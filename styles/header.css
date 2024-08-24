@@ -1,6 +1,8 @@
 .header {
     display: flex;
     flex-direction: column;
+    background-color: #EAEEFE;
+    padding-bottom: 52px;
 }
 
 .bar {

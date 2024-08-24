@@ -1,0 +1,25 @@
+.button__link {
+    text-decoration: none;
+    text-align: center;
+}
+
+.button__link--dark {
+    padding-block: 11px;
+    padding-left: 15px;
+    padding-right: 18px;
+    background-color: #000000;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.button__link--light {
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+}
+
+.button__link--light img {
+    padding-left: 10px;
+}
