@@ -1,0 +1,19 @@
+.card__image {
+    padding-top: 39px;
+    padding-left: 37px;
+    padding-right: 39px;
+    padding-bottom: 14px;
+}
+
+.card__title {
+    text-align: center;
+    padding-bottom: 17px;
+}
+
+.card__text {
+    text-align: center;
+    width: 332px;
+    padding-left: 33px;
+    padding-bottom: 38px;
+    color: #010D3E;
+}

@@ -22,16 +22,16 @@
 }
 
 .productivity__title {
-    padding-top: 27px;
+    padding-top: 24px;
 }
 
 .productivity__description {
-    padding-top: 31px;
+    padding-top: 33px;
     width: 365px;
 }
 
 .productivity__buttons {
-    padding-top: 35.6px;
+    padding-top: 36px;
 }
 
 .productivity__list {
@@ -95,7 +95,7 @@
     background: linear-gradient(222deg,
         #FFF 40%, 
         #D2DCFF 100%);
-    padding-bottom: 102px;
+    padding-bottom: 103px;
 }
 
 .product__title {
@@ -105,13 +105,13 @@
 }
 
 .product__description {
-    padding-top: 19px;
+    padding-top: 17px;
     text-align: center;
     width: 376px;
 }
 
 .product__image {
-    margin-top: -30px;
+    margin-top: -28px;
     height: 366px;
     width: 430px;
 }
@@ -121,30 +121,7 @@
     flex-direction: column;
     gap: 100px;
     padding-top: 12px;
-    width: 260px;
-}
-
-.feature__image {
-    height: 24px;
-    width: 24px;
-}
-
-.feature__title {
-    padding-top: 10px;
-}
-
-.feature__description {
-    padding-top: 14px;
-    padding-bottom: 7px;
-}
-
-.feature__link {
-    text-decoration: none;
-    color: #000000;
-}
-
-.feature__link > img {
-    padding-left: 6px;
+    width: 265px;
 }
 
 .benefits {
@@ -159,7 +136,7 @@
 .benefits__title {
     padding-top: 20px;
     text-align: center;
-    width: 297px;
+    width: 290px;
 }
 
 .benefits__description {
@@ -179,31 +156,11 @@
 }
 
 .benefits__item {
-    height: 534px;
-    width: 408px;
     border-radius: 20px;
     border: 1px solid #00000011;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
-}
-
-.card__image {
-    padding-top: 38px;
-    padding-left: 38px;
-    padding-bottom: 14px;
-}
-
-.card__title {
-    text-align: center;
-    padding-bottom: 17px;
-}
-
-.card__text {
-    text-align: center;
-    width: 332px;
-    padding-left: 33px;
-    color: #010D3E;
 }
 
 .price {
@@ -215,7 +172,7 @@
 }
 
 .price__title {
-    padding-top: 21px;
+    padding-top: 19px;
     text-align: center;
     width: 394px;
     letter-spacing: -4%;
@@ -235,7 +192,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 23px;
 }
 
 .price__item {
@@ -246,7 +203,7 @@
     flex-direction: column;
     padding-left: 39px;
     padding-top: 43px;
-    padding-right: 40px;
+    padding-right: 38px;
     padding-bottom: 48px;
     box-sizing: border-box;
 }
@@ -412,41 +369,6 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.comment {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.comment__text {
-    width: 248px;
-    text-align: left;
-    padding-bottom: 17px;
-}
-
-.comment__person {
-    display: flex;
-    flex-direction: row;
-}
-
-.comment__person-image {
-    width: 42px;
-    height: 42px;
-}
-
-.comment__person-info {
-    display: flex;
-    flex-direction: column;
-    padding-top: 2px;
-    padding-left: 10px;
-}
-
-.comment__person-handle {
-    text-decoration: none;
-    color: #000000;
-}
-
 .sign {
     padding-top: 145px;
     display: flex;
@@ -454,19 +376,19 @@
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, #FFFFFF 40%, #D2DCFF 95%);
-    padding-bottom: 69px;
+    padding-bottom: 66px;
 }
 
 .sign__title {
     width: 200px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 19px;
 }
 
 .sign__description {
     width: 280px;
     text-align: center;
-    padding-bottom: 51px;
+    padding-bottom: 50px;
 }
 
 .sign__list {

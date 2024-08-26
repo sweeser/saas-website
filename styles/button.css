@@ -1,12 +1,15 @@
 .button__link {
     text-decoration: none;
     text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .button__link--dark {
-    padding-block: 11px;
-    padding-left: 15px;
-    padding-right: 18px;
+    padding-block: 9.5px;
+    padding-left: 16px;
+    padding-right: 12px;
     background-color: #000000;
     text-decoration: none;
     text-align: center;
@@ -21,5 +24,5 @@
 }
 
 .button__link--light img {
-    padding-left: 10px;
+    padding-left: 6px;
 }

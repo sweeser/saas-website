@@ -3,12 +3,19 @@
     text-align: center;
     vertical-align: middle;
     padding-block: 7px;
-    padding-inline: 13px;
+    padding-left: 12px;
+    padding-right: 14px;
     border-radius: 10px;
 }
 
 .tag__text {
     font-size: 13px;
-    font-weight: 300;
-    letter-spacing: -2.5%;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+}
+
+.tag--type--unique {
+    padding-block: 6px;
+    padding-left: 11px;
+    padding-right: 29px;
 }
