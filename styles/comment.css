@@ -6,9 +6,8 @@
 }
 
 .comment__text {
-    width: 248px;
     text-align: left;
-    padding-bottom: 17px;
+    padding-bottom: 19px;
 }
 
 .comment__person {
@@ -24,8 +23,9 @@
 .comment__person-info {
     display: flex;
     flex-direction: column;
-    padding-top: 2px;
-    padding-left: 10px;
+    gap: 2px;
+    padding-top: 1px;
+    padding-left: 8px;
 }
 
 .comment__person-handle {

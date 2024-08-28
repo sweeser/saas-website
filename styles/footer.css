@@ -10,6 +10,7 @@
 
 .footer__description {
     padding-top: 22px;
+    line-height: 1.2;
     width: 300px;
 }
 
@@ -17,12 +18,7 @@
     display: flex;
     flex-direction: row;
     padding-top: 31px;
-    gap: 14px;
-}
-
-.footer__social-item {
-    width: 21px;
-    height: 21px;
+    gap: 11px;
 }
 
 .footer__social-link {
@@ -31,16 +27,16 @@
 }
 
 .footer__nav {
-    padding-top: 78px;
+    padding-top: 70px;
 }
 
 .footer__item-links {
-    padding-bottom: 33px;
+    padding-bottom: 34px;
 }
 
 .footer__item-title {
     color: #FFFFFF;
-    padding-bottom: 20px;
+    padding-bottom: 22px;
 }
 
 .footer__link-list {

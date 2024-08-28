@@ -1,8 +1,16 @@
-.card__image {
-    padding-top: 39px;
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 37px;
     padding-left: 37px;
-    padding-right: 39px;
-    padding-bottom: 14px;
+    padding-right: 37px;
+    padding-bottom: 38px;
+}
+
+.card__image {
+    padding-bottom: 18px;
 }
 
 .card__title {
@@ -12,8 +20,6 @@
 
 .card__text {
     text-align: center;
-    width: 332px;
-    padding-left: 33px;
-    padding-bottom: 38px;
+    width: 335px;
     color: #010D3E;
 }

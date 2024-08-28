@@ -6,7 +6,7 @@
     font-weight: 500;
 }
 
-.button__link--dark {
+.button__link_dark {
     padding-block: 9.5px;
     padding-left: 16px;
     padding-right: 12px;
@@ -17,12 +17,12 @@
     border-radius: 10px;
 }
 
-.button__link--light {
+.button__link_light {
     text-decoration: none;
     text-align: center;
     color: #000000;
 }
 
-.button__link--light img {
+.button__link_light img {
     padding-left: 6px;
 }

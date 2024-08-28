@@ -18,7 +18,7 @@
 .productivity > img {
     height: 388px;
     width: 388px;
-    padding-top: 97px;
+    padding-top: 95px;
 }
 
 .productivity__title {
@@ -98,16 +98,19 @@
     padding-bottom: 103px;
 }
 
+.product__header {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
 .product__title {
-    padding-top: 19px;
+    padding-top: 17px;
     text-align: center;
-    width: 376px;
 }
 
 .product__description {
     padding-top: 17px;
     text-align: center;
-    width: 376px;
 }
 
 .product__image {
@@ -133,16 +136,23 @@
     padding-bottom: 220px;
 }
 
+.benefits__header {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .benefits__title {
-    padding-top: 20px;
+    padding-top: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: center;
-    width: 290px;
 }
 
 .benefits__description {
     padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
-    width: 358px;
     color: #010D3E;
 }
 
@@ -171,19 +181,26 @@
     padding-bottom: 150px;
 }
 
+.price__header {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .price__title {
-    padding-top: 19px;
+    padding-top: 17px;
     text-align: center;
-    width: 394px;
     letter-spacing: -4%;
     word-spacing: -4px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .price__description {
     padding-top: 20px;
     text-align: center;
-    width: 365px;
     color: #010D3E;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .price__list {
@@ -222,11 +239,11 @@
     padding-bottom: 38px;
 }
 
-.price__item-cost--color--gray {
+.price__item-cost_color_gray {
     color: #6F6C90;
 }
 
-.price__item-cost--color--gray:nth-child(2n) {
+.price__item-cost_color_gray:nth-child(2n) {
     color: #999999;
 }
 
@@ -273,7 +290,7 @@
     color: #000000;
 }
 
-.price__item--mode--dark {
+.price__item_mode_dark {
     padding-left: 39px;
     padding-top: 47px;
     padding-right: 40px;
@@ -282,26 +299,26 @@
     color: #FFFFFF;
 }
 
-.price__item-title--mode--dark {
+.price__item_mode_dark .price__item-title {
     color: #FFFFFF;
     opacity: 0.6;
     padding-right: 136px;
 }
 
-.price__item-link--mode--dark {
+.price__item_mode_dark .price__item-link {
     color: #000000;
     background-color: #FFFFFF;
 }
 
-.price__item-features--mode--dark {
+.price__item_mode_dark .price__item-features {
     color: #FFFFFF;
 }
 
-.price__feature-link--mode--dark {
+.price__item_mode_dark .price__feature-link {
     color: #FFFFFF;
 }
 
-.price__feature--mode--dark::before {
+.price__item_mode_dark .price__feature::before {
     background: url(../images/tick-white.svg) no-repeat center center;
 }
 
@@ -348,14 +365,20 @@
     background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
 }
 
+.feedback__header {
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
 .feedback__title {
-    width: 163px;
     text-align: center;
-    padding-top: 26px;
+    padding-top: 24px;
 }
 
 .feedback__list {
     padding-top: 30px;
+    padding-left: 52px;
+    padding-right: 52px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -370,7 +393,7 @@
 }
 
 .sign {
-    padding-top: 145px;
+    padding-top: 140px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -379,14 +402,19 @@
     padding-bottom: 66px;
 }
 
+.sign__header {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
 .sign__title {
-    width: 200px;
     text-align: center;
     padding-bottom: 19px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .sign__description {
-    width: 280px;
     text-align: center;
     padding-bottom: 50px;
 }
