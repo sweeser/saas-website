@@ -28,7 +28,7 @@
     font-weight: 700;
     letter-spacing: -0.9px;
     line-height: 1;
-    background: linear-gradient(90deg, #000000, #001354);
+    background: linear-gradient(180deg, #000000, #001354);
     background-clip: text;
     color: transparent;
 }
@@ -37,7 +37,7 @@
     font-size: 32px;
     font-weight: 600;
     letter-spacing: -7%;
-    background: linear-gradient(90deg, #000000, #001354);
+    background: linear-gradient(180deg, #000000, #001354);
     background-clip: text;
     color: transparent;
 }
@@ -45,8 +45,7 @@
 .typography__h4 {
     font-size: 25px;
     font-weight: 600;
-    
-    background: linear-gradient(90deg, #000000, #001354);
+    background: linear-gradient(180deg, #000000, #001354);
     background-clip: text;
     color: transparent;
 }
@@ -70,9 +69,6 @@
     letter-spacing: -0.3px;
     line-height: 1.47;
     word-spacing: 1px;
-    /* background: linear-gradient(90deg, #000000, #001354);
-    background-clip: text;
-    color: transparent; */
 }
 
 .typography__body_large {
@@ -95,4 +91,27 @@
 
 .typography__body_s {
     font-size: 14px;
+}
+
+@media screen and (min-width: 810px) {
+    .typography__h1 {
+        font-size: 90px;
+        background: linear-gradient(180deg, #000000 10%, #001354 100%);
+        background-clip: text;
+        color: transparent;
+    }
+
+    .typography__h1_L {
+        font-size: 90px;
+    }
+
+    .typography__h2 {
+        font-size: 54px;
+        line-height: 1.1;
+        letter-spacing: -1.4px;
+    }
+
+    .typography__h3 {
+        font-size: 54px;
+    }
 }

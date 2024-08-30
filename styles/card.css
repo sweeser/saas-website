@@ -23,3 +23,11 @@
     width: 335px;
     color: #010D3E;
 }
+
+@media screen and (min-width: 810px) {
+    .card {
+        padding-top: 39px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+}

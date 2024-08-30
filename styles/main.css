@@ -15,12 +15,6 @@
         #183EC2 100%);
 }
 
-.productivity > img {
-    height: 388px;
-    width: 388px;
-    padding-top: 95px;
-}
-
 .productivity__title {
     padding-top: 24px;
 }
@@ -38,6 +32,23 @@
     display: flex;
     flex-direction: row;
     gap: 17px;
+}
+
+.productivity__image--main {
+    height: 388px;
+    width: 388px;
+    padding-top: 95px;
+    z-index: 2;
+}
+
+.productivity__image--cylinder {
+    position: absolute;
+    top: -95px;
+    right: 149px;
+    z-index: 1;
+    width: 216;
+    height: 197px;
+    display: none;
 }
 
 .sponsors {
@@ -91,6 +102,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
     padding-top: 160px;
     background: linear-gradient(222deg,
         #FFF 40%, 
@@ -113,10 +125,35 @@
     text-align: center;
 }
 
-.product__image {
+.product__image_mobile {
     margin-top: -28px;
     height: 366px;
     width: 430px;
+}
+
+.product__image_tablet {
+    display: none;
+    height: 605px;
+    width: 810px;
+    margin-top: -14px;
+}
+
+.product__image_pyramid {
+    display: none;
+    position: absolute;
+    top: 356px;
+    right: 0;
+    width: 146px;
+    height: 262px;
+}
+
+.product__image_torus {
+    display: none;
+    position: absolute;
+    top: 608px;
+    left: 0;
+    width: 152px;
+    height: 248px;
 }
 
 .product__list {
@@ -398,6 +435,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
     background: linear-gradient(180deg, #FFFFFF 40%, #D2DCFF 95%);
     padding-bottom: 66px;
 }
@@ -423,4 +461,181 @@
     display: flex;
     flex-direction: row;
     gap: 17px;
+}
+
+.sign__image {
+    display: none;
+}
+
+.sign__image--emojistar {
+    position: absolute;
+    top: 398px;
+    left: -200px;
+}
+
+.sign__image--helix {
+    position: absolute;
+    top: 495px;
+    right: -141px;
+}
+
+@media screen and (min-width: 810px) {
+    .productivity {
+        position: relative;
+        padding-left: 42px;
+        padding-bottom: 168px;
+        background: linear-gradient(200deg,
+            #EAEEFE 40%, 
+            #183EC2 100%);
+    }
+
+    .productivity__title {
+        padding-top: 29px;
+        padding-left: 2px;
+    }
+
+    .productivity__description {
+        padding-top: 40px;
+        padding-left: 2px;
+        width: 457px;
+    }
+
+    .productivity__list {
+        gap: 19px;
+    }
+    
+    .productivity__buttons {
+        padding-top: 47px;
+    }
+
+    .productivity__image--main {
+        padding-top: 0;
+        position: absolute;
+        height: 648px;
+        width: 648px;
+        top: -85px;
+        right: -315px;
+    }
+
+    .productivity__image--cylinder {
+        display: block;
+    }
+
+    .sponsors {
+        padding-left: 65px;
+    }
+
+    .product {
+        padding-bottom: 28px;
+        background: linear-gradient(200deg,
+        #FFF 20%, 
+        #D2DCFF 100%);
+    }
+
+    .product__header {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    
+    .product__title {
+        padding-top: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    
+    .product__description {
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    .product__image_mobile {
+        display: none;
+    }
+
+    .product__image_tablet {
+        display: block;
+    }
+
+    .product__image_pyramid {
+        display: block;
+    }
+    
+    .product__image_torus {
+        display: block;
+    }
+
+    .product__list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 20px;
+        padding-top: 12px;
+        padding-left: 60px;
+        width: 600px;
+    }
+
+    .product__item {
+        padding-bottom: 79px;
+    }
+
+    .benefits {
+        padding-bottom: 187px;
+    }
+
+    .benefits__description {
+        padding-top: 24px;
+        padding-left: 110px;
+        padding-right: 110px;
+    }
+
+    .benefits__list {
+        padding-top: 65px
+    }
+
+    .price {
+        padding-bottom: 259px;
+    }
+
+    .price__header {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    
+    .price__title {
+        line-height: 1.1;
+    }
+    
+    .price__description {
+        padding-top: 25px;
+    }
+
+    .price__list {
+        padding-top: 46px;
+    }
+
+    .feedback::before {
+        top: 120px;
+    }
+
+    /*Доработать секцию с отзывами*/
+
+    .sign {
+        padding-top: 525px;
+        padding-bottom: 146px;
+    }
+    
+    .sign__title {
+        padding-bottom: 20px;
+    }
+    
+    .sign__description {
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 51px;
+    }
+
+    .sign__image {
+        display: block;
+    }
 }

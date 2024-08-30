@@ -21,3 +21,9 @@
 .feature__link > img {
     padding-left: 8px;
 }
+
+@media screen and (min-width: 810px) {
+    .feature {
+        width: 260px;
+    }
+}
