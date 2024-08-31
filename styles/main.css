@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 .main {
     display: flex;
     flex-direction: column;
@@ -34,11 +38,20 @@
     gap: 17px;
 }
 
-.productivity__image--main {
+.productivity__image--mobile {
     height: 388px;
     width: 388px;
     padding-top: 95px;
     z-index: 2;
+}
+
+.productivity__image--tablet {
+    position: absolute;
+    top: -84px;
+    right: 0;
+    z-index: 2;
+    width: 216;
+    display: none;
 }
 
 .productivity__image--cylinder {
@@ -476,7 +489,7 @@
 .sign__image--helix {
     position: absolute;
     top: 495px;
-    right: -141px;
+    right: 0px;
 }
 
 @media screen and (min-width: 810px) {
@@ -508,13 +521,12 @@
         padding-top: 47px;
     }
 
-    .productivity__image--main {
-        padding-top: 0;
-        position: absolute;
-        height: 648px;
-        width: 648px;
-        top: -85px;
-        right: -315px;
+    .productivity__image--mobile {
+        display: none;
+    }
+
+    .productivity__image--tablet {
+        display: block;
     }
 
     .productivity__image--cylinder {

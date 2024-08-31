@@ -49,3 +49,26 @@
     color: #7B7B7B;
     text-decoration: none;
 }
+
+@media screen and (min-width: 810px) {
+    .footer {
+        flex-direction: row;
+        padding-bottom: 15px;
+    }
+
+    .footer__description {
+        width: 230px;
+    }
+
+    .footer__social {
+        padding-top: 110px;
+    }
+
+    .footer__nav {
+        padding-top: 2px;
+        padding-left: 132px;
+        gap: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+}
