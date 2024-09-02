@@ -11,6 +11,11 @@
     padding-bottom: 15px;
 }
 
+.bar__text {
+    color: rgba(255, 255, 255, 0.6);
+    display: none;
+}
+
 .bar__link {
     text-decoration: none;
     color: #FFFFFF;
@@ -86,5 +91,23 @@
 
     .header__menu {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .bar__text {
+        display: block;
+    }
+
+    .navigation__list {
+        padding-left: 463px;
     }
 }

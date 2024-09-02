@@ -54,13 +54,27 @@ html {
     display: none;
 }
 
+.productivity__image--desktop {
+    position: absolute;
+    top: -84px;
+    right: 5px;
+    z-index: 2;
+    width: 216;
+    display: none;
+}
+
 .productivity__image--cylinder {
     position: absolute;
     top: -95px;
     right: 149px;
     z-index: 1;
-    width: 216;
-    height: 197px;
+    display: none;
+}
+
+.productivity__image--torus {
+    position: absolute;
+    top: 397px;
+    right: 0;
     display: none;
 }
 
@@ -155,18 +169,14 @@ html {
     display: none;
     position: absolute;
     top: 356px;
-    right: 0;
-    width: 146px;
-    height: 262px;
+    right: -116px;
 }
 
 .product__image_torus {
     display: none;
     position: absolute;
     top: 608px;
-    left: 0;
-    width: 152px;
-    height: 248px;
+    left: -96px;
 }
 
 .product__list {
@@ -489,7 +499,7 @@ html {
 .sign__image--helix {
     position: absolute;
     top: 495px;
-    right: 0px;
+    right: -140px;
 }
 
 @media screen and (min-width: 810px) {
@@ -542,6 +552,14 @@ html {
         background: linear-gradient(200deg,
         #FFF 20%, 
         #D2DCFF 100%);
+    }
+
+    .product__item:nth-child(2) {
+        order: 3;
+    }
+    
+    .product__item:nth-child(4) {
+        order: 4;
     }
 
     .product__header {
@@ -649,5 +667,134 @@ html {
 
     .sign__image {
         display: block;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .productivity {
+        background: linear-gradient(190deg,
+            #EAEEFE 40%, 
+            #183EC2 100%);
+    }
+
+    .productivity__image--tablet {
+        display: none;
+    }
+    
+    .productivity__image--desktop {
+        display: block;
+    }
+
+    .productivity__image--cylinder {
+        right: 539px;
+    }
+
+    .productivity__image--torus {
+        display: block;
+    }
+
+    .sponsors {
+        padding-left: 0;
+    }
+
+    .sponsors__list {
+        gap: 57px;
+    }
+
+    .product {
+        background: linear-gradient(180deg,
+        #FFF 40%, 
+        #D2DCFF 100%);
+        padding-bottom: 66px;
+    }
+
+    .product__header {
+        padding-left: 330px;
+        padding-right: 330px;
+    }
+
+    .product__image_tablet {
+        margin-top: -40px;
+        height: 867px;
+        width: 1160px;
+    }
+
+    .product__image_pyramid {
+        top: 576px;
+        right: -81px;
+    }
+    
+    .product__image_torus {
+        top: 858px;
+        left: -81px;
+    }
+
+    .product__list {
+        flex-direction: row;
+        width: 100%;
+        padding-top: 0;
+        padding-left: 97px;
+        margin-top: -18px;
+    }
+
+    .product__item:nth-child(3) {
+        order: 3;
+    }
+
+    .benefits__title {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .benefits__description {
+        padding-left: 320px;
+        padding-right: 320px;
+    }
+
+    .benefits__list {
+        flex-direction: row;
+    }
+
+    .benefits {
+        padding-bottom: 170px;
+    }
+
+    .price__header {
+        padding-left: 320px;
+        padding-right: 320px;
+    }
+
+    .price__list {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .price {
+        padding-bottom: 138px;
+    }
+
+    .price__title {
+        padding-top: 13px;
+    }
+
+    .sign {
+        padding-top: 428px;
+    }
+
+    .sign__description {
+        padding-left: 310px;
+        padding-right: 310px;
+    }
+
+    .sign__image--emojistar {
+        position: absolute;
+        top: 291px;
+        left: -20px;
+    }
+    
+    .sign__image--helix {
+        position: absolute;
+        top: 409px;
+        right: 0px;
     }
 }
