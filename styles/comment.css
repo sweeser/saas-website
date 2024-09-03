@@ -3,9 +3,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .comment__text {
+    width: 245px;
     text-align: left;
     padding-bottom: 19px;
 }

@@ -135,6 +135,7 @@ html {
         #FFF 40%, 
         #D2DCFF 100%);
     padding-bottom: 103px;
+    overflow: hidden;
 }
 
 .product__header {
@@ -250,7 +251,6 @@ html {
     padding-top: 17px;
     text-align: center;
     letter-spacing: -4%;
-    word-spacing: -4px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -402,6 +402,37 @@ html {
     justify-content: center;
     align-items: center;
     position: relative;
+    overflow: hidden;
+}
+
+.feedback__item {
+    display: none;
+}
+
+.column__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.column__list_first {
+    gap: 25px;
+}
+
+.feedback__item_column_second {
+    display: block;
+}
+
+.column__list_second {
+    gap: 20px;
+}
+
+.feedback__item_column_third {
+    display: block;
+}
+
+.column__list_third {
+    gap: 2px;
 }
 
 .feedback::before,
@@ -440,16 +471,10 @@ html {
     padding-left: 52px;
     padding-right: 52px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
-}
-
-.feedback__item {
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .sign {
@@ -461,6 +486,7 @@ html {
     position: relative;
     background: linear-gradient(180deg, #FFFFFF 40%, #D2DCFF 95%);
     padding-bottom: 66px;
+    overflow: hidden;
 }
 
 .sign__header {
@@ -492,13 +518,13 @@ html {
 
 .sign__image--emojistar {
     position: absolute;
-    top: 398px;
+    top: 214px;
     left: -200px;
 }
 
 .sign__image--helix {
     position: absolute;
-    top: 495px;
+    top: 310px;
     right: -140px;
 }
 
@@ -648,10 +674,23 @@ html {
         top: 120px;
     }
 
-    /*Доработать секцию с отзывами*/
+    .feedback__item_column_first {
+        display: block;
+        padding-top: 6px;
+    }
+
+    .feedback__item_column_second {
+        display: block;
+        padding-top: 20px;
+    }
+
+    .feedback__item_column_third {
+        display: block;
+        padding-top: 24px;
+    }
 
     .sign {
-        padding-top: 525px;
+        padding-top: 340px;
         padding-bottom: 146px;
     }
     
@@ -660,8 +699,8 @@ html {
     }
     
     .sign__description {
-        padding-left: 110px;
-        padding-right: 110px;
+        padding-left: 120px;
+        padding-right: 120px;
         padding-bottom: 51px;
     }
 
@@ -778,7 +817,7 @@ html {
     }
 
     .sign {
-        padding-top: 428px;
+        padding-top: 243px;
     }
 
     .sign__description {
@@ -788,13 +827,13 @@ html {
 
     .sign__image--emojistar {
         position: absolute;
-        top: 291px;
+        top: 107px;
         left: -20px;
     }
     
     .sign__image--helix {
         position: absolute;
-        top: 409px;
+        top: 225px;
         right: 0px;
     }
 }
