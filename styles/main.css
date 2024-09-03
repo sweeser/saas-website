@@ -427,10 +427,6 @@ html {
     gap: 20px;
 }
 
-.feedback__item_column_third {
-    display: block;
-}
-
 .column__list_third {
     gap: 2px;
 }
