@@ -1,0 +1,94 @@
+.sign {
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(180deg, #FFFFFF 40%, #D2DCFF 95%);
+    padding-bottom: 66px;
+    overflow: hidden;
+}
+
+.sign__header {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.sign__title {
+    text-align: center;
+    padding-bottom: 19px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.sign__description {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.sign__list {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+
+.sign__image {
+    display: none;
+}
+
+.sign__image——emojistar {
+    position: absolute;
+    top: 214px;
+    left: -200px;
+}
+
+.sign__image——helix {
+    position: absolute;
+    top: 310px;
+    right: -140px;
+}
+
+@media screen and (min-width: 810px) {
+    .sign {
+        padding-top: 340px;
+        padding-bottom: 146px;
+    }
+    
+    .sign__title {
+        padding-bottom: 20px;
+    }
+    
+    .sign__description {
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-bottom: 51px;
+    }
+
+    .sign__image {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .sign {
+        padding-top: 243px;
+    }
+
+    .sign__description {
+        padding-left: 310px;
+        padding-right: 310px;
+    }
+
+    .sign__image——emojistar {
+        position: absolute;
+        top: 107px;
+        left: -20px;
+    }
+    
+    .sign__image——helix {
+        position: absolute;
+        top: 225px;
+        right: 0px;
+    }
+}

@@ -1,0 +1,137 @@
+.productivity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 55px;
+    padding-left: 19.5px;
+    padding-bottom: 75px;
+    background: linear-gradient(222deg,
+        #EAEEFE 40%, 
+        #183EC2 100%);
+}
+
+.productivity__title {
+    padding-top: 24px;
+}
+
+.productivity__description {
+    padding-top: 33px;
+    width: 365px;
+}
+
+.productivity__buttons {
+    padding-top: 36px;
+}
+
+.productivity__list {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+
+.productivity__image_device_mobile {
+    height: 388px;
+    width: 388px;
+    padding-top: 95px;
+    z-index: 2;
+}
+
+.productivity__image_device_tablet {
+    position: absolute;
+    top: 41px;
+    right: 0;
+    z-index: 2;
+    display: none;
+}
+
+.productivity__image_device_desktop {
+    position: absolute;
+    top: 41px;
+    right: 5px;
+    z-index: 2;
+    display: none;
+}
+
+.productivity__image——cylinder {
+    position: absolute;
+    top: 30px;
+    right: 149px;
+    z-index: 1;
+    display: none;
+}
+
+.productivity__image——torus {
+    position: absolute;
+    top: 522px;
+    right: 0;
+    display: none;
+}
+
+@media screen and (min-width: 810px) {
+    .productivity {
+        position: relative;
+        padding-top: 125px;
+        padding-left: 42px;
+        padding-bottom: 168px;
+        background: linear-gradient(200deg,
+            #EAEEFE 40%, 
+            #183EC2 100%);
+    }
+
+    .productivity__title {
+        padding-top: 29px;
+        padding-left: 2px;
+    }
+
+    .productivity__description {
+        padding-top: 40px;
+        padding-left: 2px;
+        width: 457px;
+    }
+
+    .productivity__list {
+        gap: 19px;
+    }
+    
+    .productivity__buttons {
+        padding-top: 47px;
+    }
+
+    .productivity__image_device_mobile {
+        display: none;
+    }
+
+    .productivity__image_device_tablet {
+        display: block;
+    }
+
+    .productivity__image——cylinder {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .productivity {
+        padding-top: 125px;
+        background: linear-gradient(190deg,
+            #EAEEFE 40%, 
+            #183EC2 100%);
+    }
+
+    .productivity__image_device_tablet {
+        display: none;
+    }
+    
+    .productivity__image_device_desktop {
+        display: block;
+    }
+
+    .productivity__image——cylinder {
+        right: 539px;
+    }
+
+    .productivity__image——torus {
+        display: block;
+    }
+}

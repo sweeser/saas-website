@@ -2,6 +2,12 @@
     font-family: "DM Sans", sans-serif;
 }
 
+.typography__body {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
 .typography__body_small_tag {
     font-size: 14px;
     font-weight: 300;
@@ -9,18 +15,13 @@
 }
 
 .typography__h1 {
-    font-size: 53px;
+    font-size: 58px;
     font-weight: 700;
     letter-spacing: -2.3px;
     line-height: 1.01;
     background: linear-gradient(90deg, #000000, #001354);
     background-clip: text;
     color: transparent;
-}
-
-.typography__h1_L {
-    font-size: 58px;
-    font-weight: 700;
 }
 
 .typography__h2 {
@@ -36,13 +37,19 @@
 .typography__h3 {
     font-size: 32px;
     font-weight: 600;
-    letter-spacing: -7%;
+    letter-spacing: -0.9px;
     background: linear-gradient(180deg, #000000, #001354);
     background-clip: text;
     color: transparent;
 }
 
-.typography__h4 {
+.typography__h3_small {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
+}
+
+.typography__h3_medium {
     font-size: 25px;
     font-weight: 600;
     background: linear-gradient(180deg, #000000, #001354);
@@ -50,16 +57,16 @@
     color: transparent;
 }
 
-.typography__h5 {
-    font-size: 17px;
-    font-weight: 600;
-    letter-spacing: -0.1px;
-}
-
 .typography__number {
     font-size: 54px;
     font-weight: 600;
-    letter-spacing: -6%;
+    letter-spacing: -0.8px;
+}
+
+.typography__body_price {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -0.1px;
 }
 
 .typography__body_medium {
@@ -81,11 +88,11 @@
     color: transparent;
 }
 
-.typography__body_bold {
+.typography__body_normal {
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: -2%;
+    letter-spacing: -0.3px;
 }
 
 .typography__body_s {
