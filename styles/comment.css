@@ -1,0 +1,38 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comment__text {
+    width: 245px;
+    text-align: left;
+    padding-bottom: 19px;
+}
+
+.comment__person {
+    display: flex;
+    flex-direction: row;
+}
+
+.comment__person-image {
+    width: 42px;
+    height: 42px;
+}
+
+.comment__person-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-top: 1px;
+    padding-left: 8px;
+}
+
+.comment__person-handle {
+    text-decoration: none;
+    color: #000000;
+}

@@ -1,0 +1,29 @@
+.feature__image {
+    height: 24px;
+    width: 24px;
+}
+
+.feature__title {
+    padding-top: 11px;
+}
+
+.feature__description {
+    padding-top: 12px;
+    padding-bottom: 8px;
+    color: #000000;
+}
+
+.feature__link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.feature__link > img {
+    padding-left: 8px;
+}
+
+@media screen and (min-width: 810px) {
+    .feature {
+        width: 260px;
+    }
+}

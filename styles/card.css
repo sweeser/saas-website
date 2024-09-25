@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 38px;
+}
+
+.card__image {
+    padding-bottom: 18px;
+}
+
+.card__title {
+    text-align: center;
+    padding-bottom: 17px;
+}
+
+.card__text {
+    text-align: center;
+    width: 335px;
+    color: #010D3E;
+}
+
+@media screen and (min-width: 810px) {
+    .card {
+        padding-top: 39px;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+}

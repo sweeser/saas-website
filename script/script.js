@@ -48,18 +48,18 @@ document.addEventListener('DOMContentLoaded', () => {
         container.appendChild(clone);
     }
 
-    createPriceBlock('Individual', 'New!', '$10 /monthly', 'Sign up now', [
-        'Up to 10 project members',
-        'Unlimited tasks and projects',
-        '20GB storage',
-        'Integrations',
-        'Basic support'
-    ]);
-    createPriceBlock('Individual+', '', '$13 /monthly', 'Sign up now', [
-        'Up to 15 project members',
-        'Unlimited tasks and projects',
-        '40GB storage',
-        'Integrations',
-        'Professioanl support'
-    ]);
+    // createPriceBlock('Individual', 'New!', '$10 /monthly', 'Sign up now', [
+    //     'Up to 10 project members',
+    //     'Unlimited tasks and projects',
+    //     '20GB storage',
+    //     'Integrations',
+    //     'Basic support'
+    // ]);
+    // createPriceBlock('Individual+', '', '$13 /monthly', 'Sign up now', [
+    //     'Up to 15 project members',
+    //     'Unlimited tasks and projects',
+    //     '40GB storage',
+    //     'Integrations',
+    //     'Professioanl support'
+    // ]);
 });
