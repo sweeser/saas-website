@@ -1,5 +1,7 @@
 # saas-website
 
+Prototype: https://www.figma.com/design/eYz0aN7Umeyv9RoIFZyfjh/SaaS-Website-UI-Kit-—-Framer-Website-Kit?node-id=29-2730&node-type=frame&t=MXqp5ndnLJoyxNSA-0
+
 ## Project setup
 ```
 npm install
