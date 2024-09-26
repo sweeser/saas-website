@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 150px;
+    font-family: "DM Sans", sans-serif;
 }
 
 .price__header {
@@ -98,7 +99,7 @@
 
 .price__feature::before {
     content: "";
-    background: url(../images/tick-black.svg) no-repeat center center;
+    background: url('@/assets/svg-elements/tick-black.svg') no-repeat center center;
     background-size: contain;
     position: absolute;
     top: 50%;
@@ -143,7 +144,7 @@
 }
 
 .price__item_mode_dark .price__feature::before {
-    background: url(../images/tick-white.svg) no-repeat center center;
+    background: url('@/assets/svg-elements/tick-white.svg') no-repeat center center;
 }
 
 .price__item-tag {
