@@ -29,4 +29,4 @@ export default {
 };
 </script>
 
-<style src="@/styles/sponsors.css"></style>
+<style lang="scss" src="@/styles/SponsorsComponent.scss"></style>

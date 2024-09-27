@@ -8,45 +8,46 @@
     background: linear-gradient(180deg, #FFFFFF 40%, #D2DCFF 95%);
     padding-bottom: 66px;
     overflow: hidden;
-}
+    font-family: "DM Sans", sans-serif;
 
-.sign__header {
-    padding-left: 70px;
-    padding-right: 70px;
-}
+    &__header {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    
+    &__title {
+        text-align: center;
+        padding-bottom: 19px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    &__description {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    
+    &__list {
+        display: flex;
+        flex-direction: row;
+        gap: 17px;
+    }
+    
+    &__image {
+        display: none;
 
-.sign__title {
-    text-align: center;
-    padding-bottom: 19px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-
-.sign__description {
-    text-align: center;
-    padding-bottom: 50px;
-}
-
-.sign__list {
-    display: flex;
-    flex-direction: row;
-    gap: 17px;
-}
-
-.sign__image {
-    display: none;
-}
-
-.sign__image——emojistar {
-    position: absolute;
-    top: 214px;
-    left: -200px;
-}
-
-.sign__image——helix {
-    position: absolute;
-    top: 310px;
-    right: -140px;
+        &——emojistar {
+            position: absolute;
+            top: 214px;
+            left: -200px;
+        }
+        
+        &——helix {
+            position: absolute;
+            top: 310px;
+            right: -140px;
+        }
+    }
 }
 
 @media screen and (min-width: 810px) {

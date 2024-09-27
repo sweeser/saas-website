@@ -137,5 +137,5 @@ export default {
 };
 </script>
 
-<style src="@/styles/feedback.css"></style>
-<style src="@/styles/comment.css"></style>
+<style lang="scss" src="@/styles/FeedbackComponent.scss"></style>
+<style lang="scss" src="@/styles/comment.scss"></style>

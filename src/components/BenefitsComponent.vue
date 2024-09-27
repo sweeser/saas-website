@@ -32,5 +32,5 @@ export default {
 }
 </script>
 
-<style src="@/styles/benefits.css"></style>
-<style src="@/styles/card.css"></style>
+<style lang="scss" src="@/styles/BenefitsComponent.scss"></style>
+<style lang="scss" src="@/styles/card.scss"></style>

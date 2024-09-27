@@ -1,0 +1,38 @@
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    &__text {
+        width: 245px;
+        text-align: left;
+        padding-bottom: 19px;
+    }
+
+    &__person {
+        display: flex;
+        flex-direction: row;
+
+        &-image {
+            width: 42px;
+            height: 42px;
+        }
+
+        &-info {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            padding-top: 1px;
+            padding-left: 8px;
+        }
+
+        &-handle {
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+}
