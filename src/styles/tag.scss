@@ -4,10 +4,10 @@
     vertical-align: middle;
     padding: 8px 12px;
     border-radius: 10px;
-}
 
-.tag__text {
-    font-size: 13px;
-    font-weight: 600;
-    letter-spacing: -0.3px;
+    &__text {
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: -0.3px;
+    }
 }

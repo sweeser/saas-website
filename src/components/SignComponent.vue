@@ -29,4 +29,4 @@ export default {
 };
 </script>
 
-<style src="@/styles/sign.css"></style>
+<style lang="scss" src="@/styles/SignComponent.scss"></style>

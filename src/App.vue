@@ -43,7 +43,7 @@ export default {
 }
 </script>
 
-<style src="@/styles/typography.css"></style>
-<style src="@/styles/reset.css"></style>
+<style lang="scss" src="@/styles/typography.scss"></style>
+<style lang="scss" src="@/styles/Reset.scss"></style>
 <style src="@/styles/button.css"></style>
-<style src="@/styles/tag.css"></style>
+<style lang="scss" src="@/styles/tag.scss"></style>

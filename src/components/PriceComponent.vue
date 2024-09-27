@@ -108,4 +108,4 @@ export default {
 };
 </script>
 
-<style src="@/styles/price.css"></style>
+<style lang="scss" src="@/styles/PriceComponent.scss"></style>

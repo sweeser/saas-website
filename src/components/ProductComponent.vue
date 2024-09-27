@@ -54,5 +54,5 @@ export default {
 };
 </script>
 
-<style src="@/styles/product.css"></style>
+<style lang="scss" src="@/styles/ProductComponent.scss"></style>
 <style src="@/styles/feature.css"></style>

@@ -75,4 +75,4 @@ export default {
 };
 </script>
 
-<style src="@/styles/footer.css"></style>
+<style lang="scss" src="@/styles/FooterComponent.scss"></style>

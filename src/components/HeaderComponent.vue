@@ -35,5 +35,5 @@
     };
 </script>
 
-<style src="@/styles/header.css"></style>
-<style src="@/styles/logo.css"></style>
+<style lang="scss" src="@/styles/HeaderComponent.scss"></style>
+<style lang="scss" src="@/styles/logo.scss"></style>

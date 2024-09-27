@@ -33,4 +33,4 @@ export default {
 };
 </script>
 
-<style src="@/styles/productivity.css"></style>
+<style lang="scss" src="@/styles/ProductivityComponent.scss"></style>
